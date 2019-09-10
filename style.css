@@ -1,0 +1,47 @@
+.list-item {
+	display: flex;
+	border-bottom: 1px solid #dadada;
+}
+
+.list {
+	padding: 0;
+	width: 100%;
+	margin-right: 70px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.list-item span {
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	min-width: 60px;
+}
+
+.list-item span:last-child {
+	border: none;
+}
+
+.normal {
+	width: 100%;
+}
+
+.list-head {
+    font-weight: bold;
+}
+.container {
+		display: flex;
+		flex-wrap: wrap;
+}
+
+.list-container {
+	width: calc(100% / 3 - 1px);
+	border: 1px solid black;
+	margin: -1px -1px 0 0;
+}
+
+h3 {
+	max-width: 300px;
+	padding-left: 10px;
+}
