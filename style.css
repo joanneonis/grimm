@@ -45,3 +45,16 @@ h3 {
 	max-width: 300px;
 	padding-left: 10px;
 }
+
+.animal-results-container {
+	height: 300px;
+	overflow: auto;
+}
+
+.test-text {
+	margin-bottom: 120px;
+}
+
+.word {
+	background: lightsalmon;
+}

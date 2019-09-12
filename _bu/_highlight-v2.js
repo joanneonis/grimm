@@ -1,7 +1,7 @@
 import { loadJSON, pad } from './helpers/loadJSON';
 
 let storyIndex;
-let storyCount = 10; // 209
+let storyCount = 20; // 209
 let animalData;
 let stories = [];
 let storiesCombined = '';
@@ -76,12 +76,12 @@ function listAnimals(data) {
   
   animalCounts.sort((a, b) => (a.count > b.count) ? -1 : 1);
   animalCounts.forEach((item, i) => {
-    var listItem = document.createElement("tr");
+    var listItem = document.createElement("li");
     listItem.classList.add(`animal-${i}`);
     
     listItem.innerHTML = `
-      <td>${item.animal}</td>
-      <td>${item.count}</td>
+      <span>${item.animal}</span>
+      <span>${item.count}x</span>
     `;
 
     container.appendChild(listItem);

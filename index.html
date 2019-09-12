@@ -4,41 +4,51 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="words.css">
+	<title>Analyse - Tests</title>
+	<link rel="stylesheet" href="animals.css">
 	<style>
-			table {
-				font-family: arial, sans-serif;
-				border-collapse: collapse;
-				width: 100%;
-			}
-			
-			td, th {
-				border: 1px solid #dddddd;
-				text-align: left;
-				padding: 8px;
-			}
-			
-			tr:nth-child(even) {
-				background-color: #dddddd;
-			}
-			</style>
+		body {
+			font-family: sans-serif;
+		}
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+		
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+
+		.stories-combined {
+			padding: 20px;
+			font-size: 0.85em;
+			line-height: 1.5;
+		}
+
+		.highlight {
+			background-color: yellow;
+		}
+	</style>
 </head>
 <body>
-	<div class="test">
-		
-	</div>
+	<section class="animal-list">
+		<div class="stories">
+			<div class="stories-combined"></div>
+		</div>
+		<div class="keywords">
+			<table id="animals"></table>
+		</div>
+	</section>
+	
 
-	<pre class="people">
-
-	</pre>
-
-	<div class="container">
-
-	</div>
-
-	<script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
+	<script src="./_temp/compromise.min.js"></script>
 	<script src="bundle.js"></script>
 </body>
 </html>
