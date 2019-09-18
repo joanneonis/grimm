@@ -1,0 +1,82 @@
+.stories-combined > span > span:nth-child(odd) {
+	/* border-bottom: 10px solid red; */
+}
+
+.nl-Preposition {
+	border-bottom: 15px solid #f00;
+}
+
+span.nl-Singular {}
+
+.nl-Noun {
+	border-bottom: 15px solid #00f;
+}
+
+.nl-Plural {
+	/* border-bottom: 10px solid orange; */
+}
+
+.nl-QuestionWord {
+	border-bottom: 10px solid green;
+}
+
+.nl-Verb {
+	border-bottom: 25px solid #000;
+}
+
+.nl-Adverb {
+	border-bottom: 25px solid gray;
+}
+
+.nl-Negative {
+	background: red;
+	color: white;
+}
+
+.nl-Positive {
+	/* background: green; */
+}
+
+span.nl-Adjective {
+	border-bottom: 10px solid orange;
+}
+
+span.nl-Conjunction {
+	border-bottom: 10px solid indigo;
+}
+
+span.nl-Determiner {
+	border-bottom: 10px dotted;
+}
+
+.nl-Quotation {
+	border-bottom: 10px dotted limegreen;
+}
+
+.nl-Expression {
+	background: linear-gradient(0deg, #ababab, #0000);
+}
+
+.nl-Value {
+	background: lightslategrey;
+}
+
+
+.stories-combined {
+	font-size: 4.4px;
+	letter-spacing: 1.9px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.stories-combined > span > span > span {
+	color: transparent;
+	display: inline-block;
+}
+
+.stories-combined > span > span {
+	border-bottom: 1px solid #808080;
+	display: block;
+}

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Analyse - Tests</title>
-	<link rel="stylesheet" href="../animals.css">
+	<link rel="stylesheet" href="animals.css">
 	<style>
 		body {
 			font-family: sans-serif;
@@ -36,38 +36,33 @@
 			background-color: yellow;
 		}
 
-		span.story {
-    		font-size: 5px;
-				line-height: 1.5;
-				display: block;
-				margin-bottom: 10px;
-				padding-bottom: 10px;
-				border-bottom: 25px solid #03a9f43d;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
 		}
 
-		span.highlight {
-				font-size: 17px;
-		}
-
-		span.title {
-				font-weight: bold;
-				font-size: 10px;
-				display: block;
+		.list-container {
+			width: calc(100% / 4 - 50px);
 		}
 	</style>
 </head>
 <body>
-	<section class="animal-list">
-		<div class="stories">
-			<div class="stories-combined"></div>
-		</div>
-		<div class="keywords">
-			<table id="animals"></table>
-		</div>
-	</section>
+
+	<div class="test">
+
+	</div>
+
+	<pre class="people">
+
+	</pre>
+
+	<div class="container">
+
+	</div>
 	
 
-	<script src="../_temp/compromise.min.js"></script>
-	<script src="../bundle.js"></script>
+	<script src="./_temp/compromise.min.js"></script>
+	<script src="bundle.js"></script>
 </body>
 </html>
